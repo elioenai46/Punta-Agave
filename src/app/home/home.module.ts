@@ -6,6 +6,7 @@ import {MatCardModule} from '@angular/material/card';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { HomeKnownComponent } from './home-known/home-known.component';
 import { HomePromotionsComponent } from './home-promotions/home-promotions.component';
+import { HomeContactComponent } from './home-contact/home-contact.component';
 
 
 
@@ -16,7 +17,8 @@ import { HomePromotionsComponent } from './home-promotions/home-promotions.compo
     HomeComponent,
     HomeBedroomsComponent,
     HomeKnownComponent,
-    HomePromotionsComponent
+    HomePromotionsComponent,
+    HomeContactComponent
   ],
   imports: [
     CommonModule,
