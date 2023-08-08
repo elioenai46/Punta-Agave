@@ -80,6 +80,35 @@ header {
     transform: scaleX(1); /* Escala la línea horizontalmente para que sea visible al hacer hover */
   }
   
+h1{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-size: xx-large;
+  color: #f41010;
 
-  
-  
+}
+
+
+h3{
+  margin-top: 30px;
+  font-size: x-large;
+  color: #f41010;
+}
+
+i{
+  margin-right: 10px;
+  color: #f41010;
+  margin-bottom: 15px;
+
+}
+
+ul{
+  margin-top: 30px;
+  list-style-type: none;  
+  color: #f41010;
+}
+
+.spacing-custom{
+  border-top: 40px;
+}
