@@ -5,6 +5,7 @@ import { HomeBedroomsComponent } from './home-bedrooms/home-bedrooms.component';
 import {MatCardModule} from '@angular/material/card';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { HomeKnownComponent } from './home-known/home-known.component';
+import { HomePromotionsComponent } from './home-promotions/home-promotions.component';
 
 
 
@@ -14,7 +15,8 @@ import { HomeKnownComponent } from './home-known/home-known.component';
   declarations: [
     HomeComponent,
     HomeBedroomsComponent,
-    HomeKnownComponent
+    HomeKnownComponent,
+    HomePromotionsComponent
   ],
   imports: [
     CommonModule,
