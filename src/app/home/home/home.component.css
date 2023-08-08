@@ -82,4 +82,57 @@ header {
   
 
   
+  h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: xx-large;
+    color: #f41010;
   
+  }
+
+  i{
+    margin-right: 10px;
+    color: #947261;
+    margin-bottom: 15px;
+    font-size: 30px;
+    margin-left: 80px;
+  
+  }
+  
+  ul{
+    margin-top: 30px;
+    list-style-type: none;  
+    color: #947261;
+  }
+
+  .card-custom{
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: -40px;
+  width: 800px;
+  background-color: #ffffff !important;
+  position: relative;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(82, 82, 82, 0.7) 0px 2px 16px 0px;
+}
+
+.btn-room{
+  border: #f41010 2px solid !important;
+  border-radius: 3px !important;
+  height: 50px;
+  width: 200px;
+  color: #f41010;
+}
+ .text-decription{
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+  text-align: justify;
+ }
+
+ footer{
+  background-color:#f41010;
+  color: white;
+ }
+ 
+ .i-social-media{
+  color: white;
+ }

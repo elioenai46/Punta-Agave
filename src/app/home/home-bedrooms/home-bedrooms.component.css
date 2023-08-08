@@ -112,3 +112,11 @@ ul{
 .spacing-custom{
   border-top: 40px;
 }
+
+.card-custom{
+  border: 1px solid black; 
+  margin-top: -40px;
+  width: 800px;
+  background-color: #bf9090 !important;
+  position: relative
+}
