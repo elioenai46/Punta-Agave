@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home/home.component';
 import { HomeBedroomsComponent } from './home/home-bedrooms/home-bedrooms.component';
+import { HomeKnownComponent } from './home/home-known/home-known.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,9 @@ const routes: Routes = [
   {
     path: 'bedrooms', component: HomeBedroomsComponent,
   },
+  {
+    path: 'known', component: HomeKnownComponent
+  }
 ];
 
 @NgModule({

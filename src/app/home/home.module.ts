@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { HomeBedroomsComponent } from './home-bedrooms/home-bedrooms.component';
 import {MatCardModule} from '@angular/material/card';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { HomeKnownComponent } from './home-known/home-known.component';
 
 
 
@@ -12,7 +13,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 @NgModule({
   declarations: [
     HomeComponent,
-    HomeBedroomsComponent
+    HomeBedroomsComponent,
+    HomeKnownComponent
   ],
   imports: [
     CommonModule,
