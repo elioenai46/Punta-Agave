@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home/home.component';
 import { HomeBedroomsComponent } from './home/home-bedrooms/home-bedrooms.component';
 import { HomeKnownComponent } from './home/home-known/home-known.component';
 import { HomePromotionsComponent } from './home/home-promotions/home-promotions.component';
+import { HomeContactComponent } from './home/home-contact/home-contact.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,9 @@ const routes: Routes = [
   },
   {
     path: 'promotions', component: HomePromotionsComponent
+  },
+  {
+    path: 'contact', component: HomeContactComponent
   }
 ];
 
