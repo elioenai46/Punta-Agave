@@ -7,7 +7,7 @@ header {
   
   /* Estilos para los elementos de lista */
   li {
-    margin-left: 30px;
+    font-size: 14px;
   }
   
   /* Estilos para la barra de navegación */
@@ -99,12 +99,12 @@ h3{
 i{
   margin-right: 10px;
   color: #f41010;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 
 }
 
 ul{
-  margin-top: 30px;
+  margin-top: 0px;
   list-style-type: none;  
   color: #f41010;
 }

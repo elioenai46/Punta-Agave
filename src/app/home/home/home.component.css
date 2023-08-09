@@ -95,21 +95,16 @@ header {
     margin-right: 10px;
     color: #947261;
     margin-bottom: 15px;
-    font-size: 30px;
-    margin-left: 80px;
-  
+    font-size: 25px;  
   }
   
   ul{
-    margin-top: 30px;
     list-style-type: none;  
     color: #947261;
   }
 
   .card-custom{
   border: 1px solid rgb(255, 255, 255);
-  margin-top: -40px;
-  width: 800px;
   background-color: #ffffff !important;
   position: relative;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(82, 82, 82, 0.7) 0px 2px 16px 0px;
@@ -136,3 +131,12 @@ header {
  .i-social-media{
   color: white;
  }
+
+ 
+ @media (max-width: 767px) {
+  .img-room img {
+      width: 600px;
+      height: 500px;
+      object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
+  }
+}
