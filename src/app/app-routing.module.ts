@@ -1,11 +1,11 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home/home.component';
 import { HomeBedroomsComponent } from './home/home-bedrooms/home-bedrooms.component';
 import { HomeKnownComponent } from './home/home-known/home-known.component';
 import { HomePromotionsComponent } from './home/home-promotions/home-promotions.component';
 import { HomeContactComponent } from './home/home-contact/home-contact.component';
 import { HomeBlogComponent } from './home/home-blog/home-blog.component';
+import { HomeComponent } from './home/home/home.component';
 
 const routes: Routes = [
   {

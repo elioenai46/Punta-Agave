@@ -116,6 +116,7 @@ ul {
   border: 1px solid rgb(255, 255, 255);
   background-color: #ffffff !important;
   position: relative;
+
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(82, 82, 82, 0.7) 0px 2px 16px 0px;
 }
