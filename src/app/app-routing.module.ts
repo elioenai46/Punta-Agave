@@ -6,6 +6,7 @@ import { HomePromotionsComponent } from './home/home-promotions/home-promotions.
 import { HomeContactComponent } from './home/home-contact/home-contact.component';
 import { HomeBlogComponent } from './home/home-blog/home-blog.component';
 import { HomeComponent } from './home/home/home.component';
+import { HomePruebaComponent } from './home/home-prueba/home-prueba.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,9 @@ const routes: Routes = [
   },
   {
     path: 'blog', component: HomeBlogComponent
+  },
+  {
+    path: 'test', component: HomePruebaComponent
   }
 ];
 

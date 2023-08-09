@@ -8,6 +8,7 @@ import { HomeKnownComponent } from './home-known/home-known.component';
 import { HomePromotionsComponent } from './home-promotions/home-promotions.component';
 import { HomeContactComponent } from './home-contact/home-contact.component';
 import { HomeBlogComponent } from './home-blog/home-blog.component';
+import { HomePruebaComponent } from './home-prueba/home-prueba.component';
 
 
 
@@ -20,7 +21,8 @@ import { HomeBlogComponent } from './home-blog/home-blog.component';
     HomeKnownComponent,
     HomePromotionsComponent,
     HomeContactComponent,
-    HomeBlogComponent
+    HomeBlogComponent,
+    HomePruebaComponent
   ],
   imports: [
     CommonModule,
