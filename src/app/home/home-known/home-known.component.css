@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow&family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow&family=Encode+Sans+SC:wght@500&family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow&family=Encode+Sans+SC:wght@500&family=Josefin+Sans:wght@300&family=Noto+Sans+Bamum&display=swap");
 /* Estilos para el encabezado */
 header {
     height: 100px;
@@ -5,6 +9,10 @@ header {
     margin-top: 20px;
   }
   
+  p{
+    font-family: "Noto Sans Bamum", sans-serif;
+    font-size: 18px;
+  }
   /* Estilos para los elementos de lista */
   li {
     margin-left: 30px;
@@ -94,8 +102,7 @@ header {
     color: #f41010;
     margin-bottom: 15px;
     font-size: 30px;
-    margin-left: 80px;
-  
+ 
   }
   
   ul{
@@ -117,3 +124,15 @@ header {
    .i-social-media{
     color: white;
    }  
+
+   p{
+    margin-left: 32px;
+    margin-right: 32px;
+   }
+   @media (max-width: 767px) {
+    .img-room img {
+      width: 600px;
+      height: 500px;
+      object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
+    }
+  }

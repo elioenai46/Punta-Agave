@@ -85,8 +85,8 @@ body {
 }
 
 .form-promotions {
-  border: 2px solid #ff7307;
-  height: 100px;
+  border: 1px solid #ff7307;
+  height: 150px;
 }
 
 input {
@@ -100,8 +100,24 @@ input {
 footer {
   background-color: #f41010;
   color: white;
+  font-size: 14px;
 }
 
 .i-social-media {
   color: white;
+  font-size: 50px;
+  margin-left: 40px;
+}
+
+.button-custom{
+  background-color: #f41010;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .img-room img {
+    width: 1400px;
+    height: 200px;
+    object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
+  }
 }

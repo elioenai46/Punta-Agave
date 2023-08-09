@@ -1,142 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow&family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow&family=Encode+Sans+SC:wght@500&family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow&family=Encode+Sans+SC:wght@500&family=Josefin+Sans:wght@300&family=Noto+Sans+Bamum&display=swap");
 /* Estilos para el encabezado */
 header {
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 20px;
-  }
-  
-  /* Estilos para los elementos de lista */
-  li {
-    margin-left: 30px;
-  }
-  
-  /* Estilos para la barra de navegación */
-  .navbar {
-    height: 80px; /* Ajusta la altura deseada */
-  }
-  
-  /* Alineación vertical en la barra de navegación */
-  .navbar-nav {
-    align-items: center;
-  }
-  
-  /* Estilos para el cuerpo del documento */
-  body {
-    background-color: rgb(255, 255, 255);
-  }
-  
-  /* Enlaces de la barra de navegación en estado normal */
-  .navbar-nav li a {
-    color: #000; /* Color de texto normal */
-    transition: color 0.3s ease-in-out; /* Transición suave para el cambio de color */
-  }
-  
-  /* Enlaces de la barra de navegación al hacer hover */
-  .navbar-nav li a:hover {
-    color: #ff5e00; /* Color de texto al hacer hover */
-  }
-  
-  /* Cambia el color de fondo y texto del elemento activo en la barra de navegación */
-  .navbar-nav .nav-item.active a {
-    background-color: #ff7307;
-    color: #f41010;
-  }
-  
-  /* Estilos base para la lista de navegación */
-  .nav {
-    list-style: none; /* Elimina los puntos de viñeta de la lista */
-    padding: 0; /* Elimina el relleno predeterminado de la lista */
-  }
-  
-  /* Estilos para cada elemento de la lista de navegación */
-  .nav-item {
-    display: inline-block; /* Muestra los elementos en línea */
-    margin: 10px; /* Agrega un margen alrededor de cada elemento */
-    position: relative; /* Establece la posición como relativa para elementos secundarios */
-  }
-  
-  /* Estilos para los enlaces dentro de cada elemento de la lista */
-  .nav-link {
-    text-decoration: none; /* Elimina la decoración de subrayado de los enlaces */
-    color: #333; /* Establece el color del texto */
-  }
-  
-  /* Estilos para la línea que aparecerá debajo del enlace al hacer hover */
-  .nav-item::after {
-    content: ""; /* Agrega contenido antes o después del elemento */
-    display: block; /* Lo convierte en un bloque para que ocupe todo el ancho */
-    position: absolute; /* Establece la posición como absoluta para posicionar con respecto al elemento padre */
-    width: 100%; /* Establece el ancho al 100% del elemento padre */
-    height: 3px; /* Establece la altura de la línea */
-    background-color: #ff5e00; /* Establece el color de fondo de la línea */
-    bottom: -5px; /* Posiciona la línea 5px por debajo del elemento padre */
-    left: 0; /* Posiciona la línea en el borde izquierdo del elemento padre */
-    transform: scaleX(0); /* Escala la línea horizontalmente para que no sea visible inicialmente */
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Agrega una transición suave al cambiar la escala */
-  }
-  
-  /* Estilos al hacer hover sobre el elemento de la lista */
-  .nav-item:hover::after {
-    transform: scaleX(1); /* Escala la línea horizontalmente para que sea visible al hacer hover */
-  }
-  
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
 
-  
-  h1{
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 70px;
-    font-size: xx-large;
-    color: #f41010;
-  
-  }
+/* Estilos para los elementos de lista */
+li {
+  margin-left: 30px;
+  font-family: "Noto Sans Bamum", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
 
-  i{
-    margin-right: 10px;
-    color: #947261;
-    margin-bottom: 15px;
-    font-size: 25px;  
-  }
-  
-  ul{
-    list-style-type: none;  
-    color: #947261;
-  }
 
-  .card-custom{
+/* Estilos para la barra de navegación */
+.navbar {
+  height: 80px; /* Ajusta la altura deseada */
+}
+
+/* Alineación vertical en la barra de navegación */
+.navbar-nav {
+  align-items: center;
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Enlaces de la barra de navegación en estado normal */
+.navbar-nav li a {
+  color: #000; /* Color de texto normal */
+  transition: color 0.3s ease-in-out; /* Transición suave para el cambio de color */
+}
+
+/* Enlaces de la barra de navegación al hacer hover */
+.navbar-nav li a:hover {
+  color: #ff5e00; /* Color de texto al hacer hover */
+}
+
+/* Cambia el color de fondo y texto del elemento activo en la barra de navegación */
+.navbar-nav .nav-item.active a {
+  background-color: #ff7307;
+  color: #f41010;
+}
+
+/* Estilos base para la lista de navegación */
+.nav {
+  list-style: none; /* Elimina los puntos de viñeta de la lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+/* Estilos para cada elemento de la lista de navegación */
+.nav-item {
+  display: inline-block; /* Muestra los elementos en línea */
+  margin: 10px; /* Agrega un margen alrededor de cada elemento */
+  position: relative; /* Establece la posición como relativa para elementos secundarios */
+}
+
+/* Estilos para los enlaces dentro de cada elemento de la lista */
+.nav-link {
+  text-decoration: none; /* Elimina la decoración de subrayado de los enlaces */
+  color: #333; /* Establece el color del texto */
+}
+
+/* Estilos para la línea que aparecerá debajo del enlace al hacer hover */
+.nav-item::after {
+  content: ""; /* Agrega contenido antes o después del elemento */
+  display: block; /* Lo convierte en un bloque para que ocupe todo el ancho */
+  position: absolute; /* Establece la posición como absoluta para posicionar con respecto al elemento padre */
+  width: 100%; /* Establece el ancho al 100% del elemento padre */
+  height: 3px; /* Establece la altura de la línea */
+  background-color: #ff5e00; /* Establece el color de fondo de la línea */
+  bottom: -5px; /* Posiciona la línea 5px por debajo del elemento padre */
+  left: 0; /* Posiciona la línea en el borde izquierdo del elemento padre */
+  transform: scaleX(
+    0
+  ); /* Escala la línea horizontalmente para que no sea visible inicialmente */
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Agrega una transición suave al cambiar la escala */
+}
+
+/* Estilos al hacer hover sobre el elemento de la lista */
+.nav-item:hover::after {
+  transform: scaleX(
+    1
+  ); /* Escala la línea horizontalmente para que sea visible al hacer hover */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-size: xx-large;
+  color: #f41010;
+}
+
+i {
+  margin-right: 10px;
+  color: #947261;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+  color: #947261;
+}
+
+.card-custom {
   border: 1px solid rgb(255, 255, 255);
   background-color: #ffffff !important;
   position: relative;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(82, 82, 82, 0.7) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(82, 82, 82, 0.7) 0px 2px 16px 0px;
 }
 
-.btn-room{
+.btn-room {
   border: #f41010 2px solid !important;
   border-radius: 3px !important;
   height: 50px;
   width: 200px;
   color: #f41010;
 }
- .text-decription{
+.text-decription {
   margin-left: 40px !important;
   margin-right: 40px !important;
   text-align: justify;
- }
+  font-family: "Noto Sans Bamum", sans-serif;
 
- footer{
-  background-color:#f41010;
-  color: white;
- }
- 
- .i-social-media{
-  color: white;
- }
+}
 
- 
- @media (max-width: 767px) {
+footer {
+  background-color: #f41010;
+  color: white;
+}
+
+.i-social-media {
+  color: white;
+}
+
+@media (max-width: 767px) {
   .img-room img {
-      width: 600px;
-      height: 500px;
-      object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
+    width: 600px;
+    height: 500px;
+    object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
   }
 }
