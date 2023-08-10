@@ -7,10 +7,14 @@ import { HomeContactComponent } from './home/home-contact/home-contact.component
 import { HomeBlogComponent } from './home/home-blog/home-blog.component';
 import { HomeComponent } from './home/home/home.component';
 import { HomePruebaComponent } from './home/home-prueba/home-prueba.component';
+import { MenuComponent } from './menu/menu.component';
 
 const routes: Routes = [
   {
-    path: '', redirectTo: 'home', pathMatch: 'full'
+    path: '', redirectTo: 'menu', pathMatch: 'full'
+  },
+  {
+    path: 'menu', component: MenuComponent,
   },
   {
     path: 'home', component: HomeComponent,
