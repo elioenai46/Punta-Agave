@@ -1,21 +1,16 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeBedroomsComponent } from './home/home-bedrooms/home-bedrooms.component';
-import { HomeKnownComponent } from './home/home-known/home-known.component';
-import { HomePromotionsComponent } from './home/home-promotions/home-promotions.component';
-import { HomeContactComponent } from './home/home-contact/home-contact.component';
-import { HomeBlogComponent } from './home/home-blog/home-blog.component';
-import { HomeComponent } from './home/home/home.component';
-import { HomePruebaComponent } from './home/home-prueba/home-prueba.component';
 import { MenuComponent } from './menu/menu.component';
 import { BedroomsComponent } from './bedrooms/bedrooms.component';
 import { KnownComponent } from './known/known.component';
 import { PromotionsComponent } from './promotions/promotions.component';
 import { ContactComponent } from './contact/contact.component';
+import { BlogComponent } from './blog/blog.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
-    path: '', redirectTo: 'menu', pathMatch: 'full'
+    path: '', redirectTo: 'home', pathMatch: 'full'
   },
   {
     path: 'menu', component: MenuComponent,
@@ -33,11 +28,11 @@ const routes: Routes = [
     path: 'contact', component: ContactComponent
   },
   {
-    path: 'blog', component: HomeBlogComponent
+    path: 'blog', component: BlogComponent
   },
-  {
-    path: 'test', component: HomePruebaComponent
-  }
+{
+  path: 'home', component: HomeComponent
+}
 ];
 
 @NgModule({
