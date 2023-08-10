@@ -8,6 +8,7 @@ import { HomeBlogComponent } from './home/home-blog/home-blog.component';
 import { HomeComponent } from './home/home/home.component';
 import { HomePruebaComponent } from './home/home-prueba/home-prueba.component';
 import { MenuComponent } from './menu/menu.component';
+import { BedroomsComponent } from './bedrooms/bedrooms.component';
 
 const routes: Routes = [
   {
@@ -17,10 +18,7 @@ const routes: Routes = [
     path: 'menu', component: MenuComponent,
   },
   {
-    path: 'home', component: HomeComponent,
-  },
-  {
-    path: 'bedrooms', component: HomeBedroomsComponent,
+    path: 'bedrooms', component:BedroomsComponent ,
   },
   {
     path: 'known', component: HomeKnownComponent

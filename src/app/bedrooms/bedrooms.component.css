@@ -1,0 +1,84 @@
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: xx-large;
+    color: #f41010;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    font-size: x-large;
+    color: #f41010;
+  }
+  
+  i {
+    margin-right: 10px;
+    color: #f41010;
+    margin-bottom: 12px;
+  }
+  
+  ul {
+    margin-top: 0px;
+    list-style-type: none;
+    color: #f41010;
+  }
+  
+  .spacing-custom {
+    border-top: 40px;
+  }
+  
+  .card-custom {
+    border: 1px solid black;
+    margin-top: -40px;
+    width: 800px;
+    background-color: #bf9090 !important;
+    position: relative;
+  }
+  
+  footer {
+    background-color: #f41010;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .i-social-media {
+    color: white;
+    font-size: 50px;
+    margin-left: 40px;
+  }
+  
+  
+  .btn-reservar{
+    width: 130px;
+    height: 35px;
+    background-color: #ff5e00 !important;
+    color: white;
+    border: none;
+    box-shadow: rgba(177, 177, 177, 0.12) 0px 2px 4px 0px,
+      rgba(255, 255, 255, 0.7) 0px 2px 16px 0px;
+  }
+  
+  .fixed-button {
+    position: fixed !important;
+    bottom: 400px; /* Ajusta la posición vertical según tus necesidades */
+    right: 20px; /* Ajusta la posición horizontal según tus necesidades */
+    z-index: 9999;
+  }
+  
+  .fixed-button-whatsapp{
+    position: fixed !important;
+    bottom: 70px; /* Ajusta la posición vertical según tus necesidades */
+    left: 20px; /* Ajusta la posición horizontal según tus necesidades */
+    z-index: 9999;
+    text-align: left;
+    
+  }
+  
+  
+  .fixed-button-whatsapp i{
+    font-size: 60px;
+    color: #25D366;
+  }
+  
