@@ -1,0 +1,83 @@
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: xx-large;
+    color: #f41010;
+  
+  }
+
+  i{
+    margin-right: 10px;
+    color: #f41010;
+    margin-bottom: 15px;
+    font-size: 30px;
+ 
+  }
+  
+  ul{
+    margin-top: 30px;
+    list-style-type: none;  
+    color: #f41010;
+  }
+  .text-decription{
+    margin-left: 200px !important;
+    margin-right: 200px !important;
+    text-align: justify;
+    margin-bottom: 50px;
+   }
+
+   footer{
+    background-color:#f41010;
+    color: white;
+   }
+   .i-social-media{
+    color: white;
+   }  
+
+   p{
+    margin-left: 32px;
+    margin-right: 32px;
+   }
+   @media (max-width: 767px) {
+    .img-room img {
+      width: 600px;
+      height: 500px;
+      object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
+    }
+  }
+
+  
+.btn-reservar{
+  width: 130px;
+  height: 35px;
+  background-color: #ff5e00 !important;
+  color: white;
+  border: none;
+  box-shadow: rgba(177, 177, 177, 0.12) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.7) 0px 2px 16px 0px;
+}
+
+.fixed-button {
+  position: fixed !important;
+  bottom: 400px; /* Ajusta la posición vertical según tus necesidades */
+  right: 20px; /* Ajusta la posición horizontal según tus necesidades */
+  z-index: 9999;
+}
+
+.fixed-button-whatsapp{
+  position: fixed !important;
+  bottom: 70px; /* Ajusta la posición vertical según tus necesidades */
+  left: 20px; /* Ajusta la posición horizontal según tus necesidades */
+  z-index: 9999;
+  text-align: left;
+  
+}
+
+
+.fixed-button-whatsapp i{
+  font-size: 64px;
+  height: 52px;
+  color: #25D366;
+}
