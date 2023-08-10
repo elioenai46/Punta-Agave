@@ -11,6 +11,7 @@ import { MenuComponent } from './menu/menu.component';
 import { BedroomsComponent } from './bedrooms/bedrooms.component';
 import { KnownComponent } from './known/known.component';
 import { PromotionsComponent } from './promotions/promotions.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
@@ -29,7 +30,7 @@ const routes: Routes = [
     path: 'promotions', component: PromotionsComponent
   },
   {
-    path: 'contact', component: HomeContactComponent
+    path: 'contact', component: ContactComponent
   },
   {
     path: 'blog', component: HomeBlogComponent

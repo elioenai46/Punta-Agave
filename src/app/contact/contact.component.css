@@ -1,0 +1,93 @@
+
+footer {
+    background-color: #f41010;
+    color: white;
+  }
+  
+  .i-social-media {
+    color: white;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: xx-large;
+    color: #f41010;
+  }
+  
+  .info {
+    text-align: center;
+  }
+  
+  .i-social-media {
+    color: white;
+    font-size: 50px;
+    margin-left: 40px;
+  }
+  
+  .button-custom {
+    background-color: #f41010;
+    color: white;
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  /* Start: Google Maps Responsive */
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 400px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+    position: relative;
+    height: 0;
+  }
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  /* End: Google Maps Responsive */
+  
+  @media (max-width: 767px) {
+    .img-room img {
+      width: 600px;
+      height: 350px;
+      object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
+    }
+  }
+  
+  
+  
+  .btn-reservar{
+    width: 130px;
+    height: 35px;
+    background-color: #ff5e00 !important;
+    color: white;
+    border: none;
+    box-shadow: rgba(177, 177, 177, 0.12) 0px 2px 4px 0px,
+      rgba(255, 255, 255, 0.7) 0px 2px 16px 0px;
+  }
+  
+  .fixed-button {
+    position: fixed !important;
+    bottom: 400px; /* Ajusta la posición vertical según tus necesidades */
+    right: 20px; /* Ajusta la posición horizontal según tus necesidades */
+    z-index: 9999;
+  }
+  
+  .fixed-button-whatsapp{
+    position: fixed !important;
+    bottom: 70px; /* Ajusta la posición vertical según tus necesidades */
+    left: 20px; /* Ajusta la posición horizontal según tus necesidades */
+    z-index: 9999;
+    text-align: left;
+    
+  }
+  
+  
+  .fixed-button-whatsapp i{
+    font-size: 64px;
+    height: 52px;
+    color: #25D366;
+  }
+  
