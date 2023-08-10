@@ -10,6 +10,7 @@ import { HomePruebaComponent } from './home/home-prueba/home-prueba.component';
 import { MenuComponent } from './menu/menu.component';
 import { BedroomsComponent } from './bedrooms/bedrooms.component';
 import { KnownComponent } from './known/known.component';
+import { PromotionsComponent } from './promotions/promotions.component';
 
 const routes: Routes = [
   {
@@ -25,7 +26,7 @@ const routes: Routes = [
     path: 'known', component: KnownComponent
   },
   {
-    path: 'promotions', component: HomePromotionsComponent
+    path: 'promotions', component: PromotionsComponent
   },
   {
     path: 'contact', component: HomeContactComponent

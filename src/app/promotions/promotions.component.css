@@ -1,0 +1,74 @@
+
+.form-promotions {
+    border: 1px solid #ff7307;
+    height: 150px;
+  }
+  
+  input {
+    margin-left: 10px;
+  }
+  
+  .spacing-custom {
+    height: 40px;
+  }
+  
+  footer {
+    background-color: #f41010;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .i-social-media {
+    color: white;
+    font-size: 50px;
+    margin-left: 40px;
+  }
+  
+  .button-custom{
+    background-color: #f41010;
+    color: white;
+  }
+  
+  @media (max-width: 767px) {
+    .img-room img {
+      width: 1400px;
+      height: 200px;
+      object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
+    }
+  }
+  
+  
+    
+  .btn-reservar{
+    width: 130px;
+    height: 35px;
+    background-color: #ff5e00 !important;
+    color: white;
+    border: none;
+    box-shadow: rgba(177, 177, 177, 0.12) 0px 2px 4px 0px,
+      rgba(255, 255, 255, 0.7) 0px 2px 16px 0px;
+  }
+  
+  .fixed-button {
+    position: fixed !important;
+    bottom: 400px; /* Ajusta la posición vertical según tus necesidades */
+    right: 20px; /* Ajusta la posición horizontal según tus necesidades */
+    z-index: 9999;
+  }
+  
+  .fixed-button-whatsapp{
+    position: fixed !important;
+    bottom: 70px; /* Ajusta la posición vertical según tus necesidades */
+    left: 20px; /* Ajusta la posición horizontal según tus necesidades */
+    z-index: 9999;
+    text-align: left;
+    
+  }
+  
+  
+  .fixed-button-whatsapp i{
+    font-size: 64px;
+    height: 52px;
+    color: #25D366;
+  }
+  
