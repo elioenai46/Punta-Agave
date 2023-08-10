@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow&family=Josefin+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow&family=Encode+Sans+SC:wght@500&family=Josefin+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Barlow&family=Encode+Sans+SC:wght@500&family=Josefin+Sans:wght@300&family=Noto+Sans+Bamum&display=swap");
-
-
 /* Estilos para el encabezado */
 header {
   height: 100px;
@@ -11,15 +9,14 @@ header {
   margin-top: 20px;
 }
 
-p,
-ul {
-  font-family: "Noto Sans Bamum", sans-serif;
-  font-size: 15px;
-}
 /* Estilos para los elementos de lista */
 li {
-  font-size: 14px;
+  margin-left: 30px;
+  font-family: "Noto Sans Bamum", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
 }
+
 
 /* Estilos para la barra de navegación */
 .navbar {
