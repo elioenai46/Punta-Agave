@@ -7,6 +7,7 @@ import { PromotionsComponent } from './promotions/promotions.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
 import { HomeComponent } from './home/home.component';
+import { BlogOneComponent } from './blog/blog-one/blog-one.component';
 
 const routes: Routes = [
   {
@@ -30,9 +31,12 @@ const routes: Routes = [
   {
     path: 'blog', component: BlogComponent
   },
-{
+  {
   path: 'home', component: HomeComponent
-}
+  },
+  {
+    path: 'blogone', component: BlogOneComponent
+  }
 ];
 
 @NgModule({

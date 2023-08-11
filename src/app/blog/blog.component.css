@@ -80,3 +80,21 @@ i {
   margin-bottom: 15px;
   font-size: 25px;
 }
+
+.btn-pagination{
+  height: 45px;
+  width: 45px;
+  margin-left: 5px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.btn-pagination-current{
+  height: 45px;
+  width: 45px;
+  margin-left: 5px;
+  border-radius: 3px;
+  border: 1px solid #ff5e00;
+  background-color: #ff5e00;
+  color: white;
+}
