@@ -41,14 +41,7 @@ ul {
   font-family: "Noto Sans Bamum", sans-serif;
 }
 
-footer {
-  background-color: #f41010;
-  color: white;
-}
 
-.i-social-media {
-  color: white;
-}
 
 @media (max-width: 767px) {
   .img-room img {
@@ -124,7 +117,7 @@ footer {
   color: white !important;
   background-color: #25d366;
   text-align: left;
-  border-radius: 5px;
+  border-radius: 5px; 
 }
 
 @media (max-width: 768px) {
@@ -138,3 +131,6 @@ footer {
     display: none
   }
 }
+
+
+

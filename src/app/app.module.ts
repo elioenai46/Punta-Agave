@@ -11,6 +11,7 @@ import { PromotionsComponent } from './promotions/promotions.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HomeComponent } from './home/home.component';
     ContactComponent,
     BlogComponent,
     HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

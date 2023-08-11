@@ -1,0 +1,16 @@
+footer {
+    background-color: #f41010;
+    color: white;
+  }
+  
+  .i-social-media {
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 767px) {
+    footer{
+      text-align: center;
+    }
+  }
