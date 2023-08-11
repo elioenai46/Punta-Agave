@@ -1,105 +1,26 @@
-
 .form-promotions {
-    border: 1px solid #ff7307;
-    height: 150px;
-  }
-  
-  input {
-    margin-left: 10px;
-  }
-  
-  .spacing-custom {
-    height: 40px;
-  }
-    
-  .button-custom{
-    background-color: #f41010;
-    color: white;
-  }
-  
-  @media (max-width: 767px) {
-    .img-room img {
-      width: 1400px;
-      height: 200px;
-      object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
-    }
-  }
-  
-  
-   
-.btn-reservar {
-  width: 130px;
-  height: 35px;
-  background-color: #ff5e00 !important;
+  border: 1px solid #ff7307;
+  height: 150px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+.spacing-custom {
+  height: 40px;
+}
+
+.button-custom {
+  background-color: #f41010;
   color: white;
-  border: none;
-  box-shadow: rgba(177, 177, 177, 0.12) 0px 2px 4px 0px,
-    rgba(255, 255, 255, 0.7) 0px 2px 16px 0px;
 }
 
-.fixed-button {
-  position: fixed !important;
-  bottom: 400px; /* Ajusta la posición vertical según tus necesidades */
-  right: 20px; /* Ajusta la posición horizontal según tus necesidades */
-  z-index: 9999;
-}
-
-.fixed-button-whatsapp {
-  position: fixed !important;
-  bottom: 70px; /* Ajusta la posición vertical según tus necesidades */
-  left: 20px; /* Ajusta la posición horizontal según tus necesidades */
-  z-index: 9999;
-  text-align: left;
-}
-
-.fixed-button-reservation {
-  position: fixed !important;
-  width: 57px;
-  height: 57px;
-  bottom: 210px; /* Ajusta la posición vertical según tus necesidades */
-  left: 20px; /* Ajusta la posición horizontal según tus necesidades */
-  z-index: 9999;
-  color: white !important;
-  background-color: #ff5e00;
-  text-align: left;
-  border-radius: 5px;
-}
-
-.fixed-button-whatsapp{
-  position: fixed !important;
-  width: 57px;
-  height: 57px;
-  bottom: 140px; /* Ajusta la posición vertical según tus necesidades */
-  left: 20px; /* Ajusta la posición horizontal según tus necesidades */
-  z-index: 9999;
-  color: white !important;
-  background-color: #25d366;
-  text-align: left;
-  border-radius: 5px;
-}
-
-.fixed-button-phone {
-  position: fixed !important;
-  width: 57px;
-  height: 57px;
-  bottom: 70px; /* Ajusta la posición vertical según tus necesidades */
-  left: 20px; /* Ajusta la posición horizontal según tus necesidades */
-  z-index: 9999;
-  color: white !important;
-  background-color: #25d366;
-  text-align: left;
-  border-radius: 5px;
-}
-
-@media (max-width: 768px) {
-  .fixed-button {
-    display: none
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .fixed-button-reservation  {
-    display: none
+@media (max-width: 767px) {
+  .img-room img {
+    width: 1400px;
+    height: 200px;
+    object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
   }
 }
 
