@@ -1,5 +1,4 @@
-
-.btn-pagination{
+.btn-pagination {
   height: 45px;
   width: 45px;
   margin-left: 5px;
@@ -7,7 +6,7 @@
   border: 1px solid black;
 }
 
-.btn-pagination-current{
+.btn-pagination-current {
   height: 45px;
   width: 45px;
   margin-left: 5px;
@@ -16,7 +15,6 @@
   background-color: #ff5e00;
   color: white;
 }
-
 
 h1 {
   text-align: center;

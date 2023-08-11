@@ -41,8 +41,6 @@ ul {
   font-family: "Noto Sans Bamum", sans-serif;
 }
 
-
-
 @media (max-width: 767px) {
   .img-room img {
     width: 600px;
@@ -50,11 +48,3 @@ ul {
     object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
   }
 }
-
-
-
-
-
-
-
-
