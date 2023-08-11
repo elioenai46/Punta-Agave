@@ -16,3 +16,19 @@
   background-color: #ff5e00;
   color: white;
 }
+
+
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: xx-large;
+  color: #f41010;
+}
+@media (max-width: 767px) {
+  .img-room img {
+    width: 600px;
+    height: 150px;
+    object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
+  }
+}

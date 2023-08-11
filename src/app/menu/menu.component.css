@@ -41,27 +41,31 @@ a{
 .menu li {
   padding-left: 30px;
 }
+
 .menu li a {
   display: inline-block;
   text-decoration: none;
   color: white;
   text-align: center;
-  transition: 0.15s ease-in-out;
+  transition: 0.20s ease-in-out;
   position: relative;
   text-transform: uppercase;
 }
 .menu li a::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -10px;
   left: 0;
   width: 0;
-  height: 1px;
+  height: 4px;
+  
   background-color: var(--color1);
-  transition: 0.15s ease-in-out;
+  transition: 0.20s ease-in-out;
+  
 }
 .menu li a:hover:after {
   width: 100%;
+  background-color: tomato;
 }
 .open-menu,
 .close-menu {
@@ -98,7 +102,7 @@ a{
     transition: all 0.2s ease-in-out;
   }
   .menu li {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   a{
     color: var(--color1) !important;
@@ -119,3 +123,4 @@ li{
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
