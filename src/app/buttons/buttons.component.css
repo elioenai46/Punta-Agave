@@ -11,14 +11,14 @@
 .fixed-button {
   position: fixed !important;
   bottom: 400px;
-  right: 0px;
+  left: 30px;
   z-index: 9999;
 }
 
 .fixed-button-whatsapp {
   position: fixed !important;
   bottom: 70px;
-  left: 20px;
+  right: 20px;
   z-index: 9999;
   text-align: left;
 }
@@ -28,7 +28,7 @@
   width: 57px;
   height: 57px;
   bottom: 210px;
-  left: 20px;
+  right: 20px;
   z-index: 9999;
   color: white !important;
   background-color: #ff5e00;
@@ -41,7 +41,7 @@
   width: 57px;
   height: 57px;
   bottom: 140px;
-  left: 20px;
+  right: 20px;
   z-index: 9999;
   color: white !important;
   background-color: #25d366;
@@ -54,7 +54,7 @@
   width: 57px;
   height: 57px;
   bottom: 70px;
-  left: 20px;
+  right: 20px;
   z-index: 9999;
   color: white !important;
   background-color: #25d366;
@@ -62,9 +62,9 @@
   border-radius: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .fixed-button {
-    display: none;
+    display: none !important;
   }
 }
 

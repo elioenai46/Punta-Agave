@@ -35,3 +35,11 @@ ul {
   background-color: #bf9090 !important;
   position: relative;
 }
+
+button{
+  text-align:center;
+  color: #f41010;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #f41010;
+}
