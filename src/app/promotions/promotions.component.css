@@ -1,5 +1,5 @@
 .form-promotions {
-  border: 1px solid #ff7307;
+  border: 1px solid #20c9b4;
   height: 150px;
 }
 
@@ -12,13 +12,13 @@ input {
 }
 
 .button-custom {
-  background-color: #f41010;
+  background-color: #20c9b4;
   color: white;
 }
 
 @media (max-width: 767px) {
   .img-room img {
-    width: 1400px;
+    width: 500px;
     height: 200px;
     object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
   }

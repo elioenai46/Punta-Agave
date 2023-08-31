@@ -3,7 +3,7 @@ h1 {
   margin-top: 40px;
   margin-bottom: 70px;
   font-size: xx-large;
-  color: #f41010;
+  color: #25B35E;
 }
 
 .info {
@@ -11,7 +11,7 @@ h1 {
 }
 
 .button-custom {
-  background-color: #f41010;
+  background-color: #20c9b4;
   color: white;
   width: 100px;
   margin-bottom: 20px;
@@ -36,8 +36,8 @@ h1 {
 
 @media (max-width: 767px) {
   .img-room img {
-    width: 600px;
-    height: 350px;
+    width: 500px;
+    height: 200px;
     object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
   }
 }
@@ -47,4 +47,10 @@ i {
   color: #947261;
   margin-bottom: 15px;
   font-size: 25px;
+}
+
+label{
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
 }

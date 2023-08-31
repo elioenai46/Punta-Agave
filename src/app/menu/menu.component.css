@@ -64,7 +64,7 @@ a {
 }
 .menu li a:hover:after {
   width: 100%;
-  background-color: tomato;
+  background-color: #25B35E;
 }
 .open-menu,
 .close-menu {

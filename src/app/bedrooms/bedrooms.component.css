@@ -3,25 +3,27 @@ h1 {
   margin-top: 40px;
   margin-bottom: 70px;
   font-size: xx-large;
-  color: #f41010;
+  color: #25B35E;
 }
 
 h3 {
   margin-top: 30px;
   font-size: x-large;
-  color: #f41010;
+  color: #25B35E;
+  margin-left: 25px;
+
 }
 
 i {
   margin-right: 10px;
-  color: #f41010;
+  color: #20c9b4;
   margin-bottom: 12px;
 }
 
 ul {
   margin-top: 0px;
   list-style-type: none;
-  color: #f41010;
+  color: #20c9b4;
 }
 
 .spacing-custom {
@@ -38,9 +40,26 @@ ul {
 
 button{
   text-align:center;
-  color: #f41010;
+  color: #20c9b4;
   width: 150px;
   height: 40px;
-  border: 1px solid #f41010;
+  border: 1px solid #20c9b4;
 }
+
+p{
+  font-size: 15px;
+  line-height: 27px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .img-room img {
+    width: 500px;
+    height: 200px;
+    object-fit: cover; 
+  }
+}
+
 

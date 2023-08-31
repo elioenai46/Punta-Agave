@@ -1,7 +1,7 @@
 .btn-reservar {
   width: 130px;
   height: 35px;
-  background-color: #ff5e00 !important;
+  background-color: #8bbd24 !important;
   color: white;
   border: none;
   box-shadow: rgba(177, 177, 177, 0.12) 0px 2px 4px 0px,
@@ -31,7 +31,7 @@
   right: 20px;
   z-index: 9999;
   color: white !important;
-  background-color: #ff5e00;
+  background-color: #8bbd24;
   text-align: left;
   border-radius: 5px;
 }
