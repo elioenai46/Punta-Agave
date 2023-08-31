@@ -73,6 +73,13 @@
     display: none;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fixed-button-reservation {
+    display: none;
+  }
+}
+
+
 i {
   margin-right: 10px;
   color: #947261;
