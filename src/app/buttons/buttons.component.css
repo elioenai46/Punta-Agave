@@ -44,7 +44,7 @@
   right: 20px;
   z-index: 9999;
   color: white !important;
-  background-color: #25d366;
+  background-color: #8bbd24;
   text-align: left;
   border-radius: 5px;
 }
@@ -57,7 +57,7 @@
   right: 20px;
   z-index: 9999;
   color: white !important;
-  background-color: #25d366;
+  background-color: #8bbd24;
   text-align: left;
   border-radius: 5px;
 }
@@ -78,7 +78,6 @@
     display: none;
   }
 }
-
 
 i {
   margin-right: 10px;
@@ -154,5 +153,3 @@ i {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-
-

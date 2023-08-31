@@ -3,15 +3,14 @@ h1 {
   margin-top: 40px;
   margin-bottom: 70px;
   font-size: xx-large;
-  color: #25B35E;
+  color: #25b35e;
 }
 
 h3 {
   margin-top: 30px;
   font-size: x-large;
-  color: #25B35E;
+  color: #25b35e;
   margin-left: 25px;
-
 }
 
 i {
@@ -38,15 +37,15 @@ ul {
   position: relative;
 }
 
-button{
-  text-align:center;
+button {
+  text-align: center;
   color: #20c9b4;
   width: 150px;
   height: 40px;
   border: 1px solid #20c9b4;
 }
 
-p{
+p {
   font-size: 15px;
   line-height: 27px;
   margin-left: 25px;
@@ -58,7 +57,7 @@ p{
   .img-room-one img {
     width: 500px;
     height: 200px;
-    object-fit: cover; 
+    object-fit: cover;
   }
 }
 
@@ -69,4 +68,3 @@ p{
     object-fit: cover;
   }
 }
-

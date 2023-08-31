@@ -20,7 +20,7 @@ input {
   .img-room img {
     width: 500px;
     height: 200px;
-    object-fit: cover; /* Recorta la imagen manteniendo su relación de aspecto */
+    object-fit: cover; 
   }
 }
 
