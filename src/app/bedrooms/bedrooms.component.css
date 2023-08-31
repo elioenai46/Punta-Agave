@@ -55,11 +55,18 @@ p{
 }
 
 @media (max-width: 767px) {
-  .img-room img {
+  .img-room-one img {
     width: 500px;
     height: 200px;
     object-fit: cover; 
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-room img {
+    width: 1200px;
+    height: 350px;
+    object-fit: cover;
+  }
+}
 
