@@ -39,7 +39,8 @@ ul {
 
 button {
   text-align: center;
-  color: #20c9b4;
+  background-color: #20c9b4;
+  color: #fff;
   width: 150px;
   height: 40px;
   border: 1px solid #20c9b4;
